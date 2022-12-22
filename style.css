@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: green;
+    background-image: linear-gradient( green, white)
+}
+.content{
+    background-color: white;
+    color: green;
+    margin: 80px 200px;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+}
+
+.rightSide{
+    width: 500px;
+    height: 500px;
+    
+}
+.active{
+    background-color:lightgreen;
+    width: 500px;
+    height: 500px;
+}
+.player-1{
+    margin: 80px 0 0 155px;
+    font-size: 30px; 
+    font-size: 30px;
+    position: relative;
+}
+#score-1{
+    margin: 0px 0px 0px 200px;
+    font-size: 50px;
+    color: green;
+}
+.current1{
+    background-color: green;
+    width: 150px;
+    height: 120px;
+    margin-left: 170px;
+    margin-top: 70px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.current1 h4{
+    margin-bottom: 0px;
+    color: white;
+}
+.leftSide{
+    width: 500px;
+    height: 500px;
+}
+.player-2{
+    margin: 80px 0 0 155px;
+    font-size: 30px;
+    position: relative; 
+}
+#score-2{
+    margin: 0px 0px 0px 200px;
+    font-size: 50px;
+    color: green;
+}
+.current2{
+    background-color: green;
+    width: 150px;
+    height: 120px;
+    margin-left: 170px;
+    margin-top: 70px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.current2 h4{
+    margin-bottom: 0px;
+    color: white;
+}
+.newButton{
+    position: absolute;
+    top: 3%;
+    left: 48%;
+    border: 4px solid green;
+    color: green;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+.otherButton{
+    position: absolute;
+    display: inline-grid;
+    bottom: 30%;
+    left: 48%;
+}
+.otherButton button{
+    border: 4px solid green;
+    color: green;
+    margin: 3px;
+    padding: 8px;
+    background-color: white;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 15px;
+}.finalScore{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 97px;
+    color: green;
+    font-size: 18px;
+    font-family: monospace;
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    text-transform: capitalize;
+    border: 1px solid green;
+    border: outset;
+
+}
+.finalScore:focus{outline: none;}
+.dices{
+    position: absolute;
+    bottom: 50%;
+    left: 48%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#diceOne{
+    top: 120px;
+}
+#diceTwo{
+    top: 240px;
+}
+.winner{
+    background-color: lightgreen;
+}
+
+.name{
+    background-color: black;
+    padding: 30px;
+    height: 20px;
+    margin-top: 20px;
+}
